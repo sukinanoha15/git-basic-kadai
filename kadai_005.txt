@@ -15,3 +15,15 @@ git commit -m "add a second line"
 git log --oneline
 8e38ec6 (HEAD -> main) add a second line
 f9fa8fb add hello_world
+
+git add hello_world.txt
+git commit -m "hello_worl.txtを追加"
+[main 7204de7] hello_worl.txtを追加
+ 1 file changed, 1 insertion(+)
+git add hello_world.txt
+git commit -m "日本語訳を追記"
+[main 126e4a1] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+git log --oneline
+126e4a1 (HEAD -> main) 日本語訳を追記
+7204de7 hello_worl.txtを追加
