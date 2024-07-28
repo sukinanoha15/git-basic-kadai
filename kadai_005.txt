@@ -1,0 +1,17 @@
+cd /Users/isaoyuua/Desktop/git/kadai1
+mkdir git_challenge
+cd git_challenge/
+git init
+Initialized empty Git repository in /Users/isaoyuua/Desktop/git/kadai1/git_challenge/.git/
+git add .
+git commit -m "add hello_world"
+[main (root-commit) f9fa8fb] add hello_world
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_woeld.txt
+git add .
+git commit -m "add a second line"
+[main 8e38ec6] add a second line
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+git log --oneline
+8e38ec6 (HEAD -> main) add a second line
+f9fa8fb add hello_world
